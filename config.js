@@ -17,7 +17,7 @@ var config = {
             title: 'Founding Save The Bay',
             year: '1961',
             image: 'images/Founders.jpg',
-            description: 'Three East Bay women, Sylvia McLaughlin, Esther Guilck and Kay Kerr, saw the Bay being destroyed. The Oakland Tribune reported on a federal study showing the shallow parts of the Bay could be filled for development, leaving only a narrow river for navigation. An image posed the stark choice: "Bay or River?"<br><br><table style="width:100%; cell-spacing:40px;"><tr><td><img src="images/Historical-2.jpg"></td><td><img src="images/bay-or-river.jpg"></td></tr></table>',
+            description: 'Three East Bay women, Sylvia McLaughlin, Esther Guilck and Kay Kerr, saw the Bay being destroyed. The Oakland Tribune reported on a federal study showing the shallow parts of the Bay could be filled for development, leaving only a narrow river for navigation. An image posed the stark choice: "Bay or River?"<br><br><table style="width:100%; cell-spacing:40px;"><tr><td style="width:66%;"><img src="images/Historical-2.jpg"></td><td><img src="images/bay-or-river.jpg"></td></tr></table>',
             location: {
                 center: [-122.49714, 37.83927],
                 zoom: 10.80,
