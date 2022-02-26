@@ -1,25 +1,26 @@
 var config = {
     style: 'mapbox://styles/savesfbay/ckyewr83k06lp14p6e0qsds2u', //make style in studio
-    accessToken: 'pk.eyJ1Ijoic2F2ZXNmYmF5IiwiYSI6ImNrbjViZXI4NjAybDIydW0xcng1NHNhZWYifQ.pM2ajcKiAeYTPfUUsfu-bQ',
+    accessToken: 'pk.eyJ1Ijoic2F2ZXNmYmF5IiwiYSI6ImNra3JnamVwOTNkcW0zMnBkZDlxOXJjdmEifQ.XN_nfl_JbmkIyACF2wNX6Q',
     showMarkers: false,
-    markerColor: '#3FB1CE',
+    markerColor: '',
     theme: 'light',
     use3dTerrain: false,
-    title: 'Save The Bay',
-    subtitle: 'Impact',
+    title: '',
+    subtitle: '',
     byline: '',
-    footer: 'Source: source citations, etc.',
+    footer: '',
     chapters: [
         {
             id: 'founding-feature',
             alignment: 'center',
             hidden: false,
-            title: 'Save The Bay Founding, 1961',
+            title: 'Founding Save The Bay',
+            year: '1961',
             image: 'images/Founders.jpg',
-            description: 'In the early 1960s three East Bay women, Sylvia McLaughlin, Esther Guilck and Kay Kerr, were watching the shoreline of the Bay being destroyed. The Oakland Tribune had reported on a federal study showing the shallow parts of the Bay could be filled for development, leaving only a narrow river for navigation, illustrated with an image captioned "Bay or River?"',
+            description: 'Three East Bay women, Sylvia McLaughlin, Esther Guilck and Kay Kerr, saw the Bay being destroyed. The Oakland Tribune reported on a federal study showing the shallow parts of the Bay could be filled for development, leaving only a narrow river for navigation. An image posed the stark choice: "Bay or River?"<br><br><table style="width:100%; cell-spacing:40px;"><tr><td><img src="images/Historical-2.jpg"></td><td><img src="images/bay-or-river.jpg"></td></tr></table>',
             location: {
-                center: [-122.33877, 37.76192],
-                zoom: 9.24,
+                center: [-122.49714, 37.83927],
+                zoom: 10.80,
                 pitch: 0.00,
                 bearing: -0.00
             },
@@ -45,8 +46,9 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
+            year: '',
             image: 'images/Founding.jpg',
-            description: 'They decided to take action, and gathered local Bay Area environmental leaders to ask who was going to save the Bay. When none volunteered, the women started the <i>Save San Francisco Bay Association</i> and quickly recruited friends to the cause. They attended city council meetings, opposed local plans to fill in the Bay they loved, and built public support to stop the filling.',
+            description: 'They took action, asking national conservation  leaders stop the filling, but  none agreed. So the women began recruiting friends to their cause, and formed Save San Francisco Bay Association. They attended city council meetings, opposed Berkeley and other cities’ plans to fill in the Bay, and rallied public support to halt the filling. ',
             location: {
                 center: [-122.33877, 37.76192],
                 zoom: 9.24,
@@ -74,9 +76,10 @@ var config = {
             id: 'bcbd-feature',
             alignment: 'center',
             hidden: false,
-            title: 'Creating the San Francisco Bay Conservation and Development Commission, 1969',
+            title: 'Creating the First Bay Protection Agency',
+            year: '1969',
             image: 'images/BCDC.jpeg',
-            description: 'In 1965, Save The Bay led the campaign to pass a state law establishing a study commission to devise a plan for San Francisco Bay. Chaired by Sunset Magazine publisher Mel Lane with journalist Joe Bodovitz as its director, the commission held public hearings and enlisted experts on all aspects of the Bay’s needs and threats. The report recommended a permanent commission to regulate use of the Bay and its shoreline, limit filling, and increase public access and enjoyment. In 1969, the bill that created this Bay Conservation & Development Commission (BCDC) passed the legislature by one vote and was signed into law by Governor Reagan. It became the first coastal protection agency in the world and the model for California’s Coastal Commission and many others. <br> Today BCDC has 27 Commissioners, local elected officials and public members, who continue its mission. Through BCDC permits, ports, marinas, parks, wildlife refuges, and trails have been created and protected, increasing public access from only 6 miles to hundreds of miles over the last 50 years.  Learn more about BCDC here https://bcdc.ca.gov/history.html',
+            description: 'In 1965, Save The Bay’s  campaign convinced the state legislature to create  a study commission to devise a plan for San Francisco Bay. Chaired by Sunset Magazine publisher Mel Lane with journalist Joe Bodovitz as its director, the commission held public hearings and enlisted experts on all of the Bay’s resources and threats to them. The commission recommended the state create a permanent agency to regulate use of the Bay and its shoreline, limit filling, increase public access and protect commerce. In 1969, Save The Bay’s bill to create that Bay Conservation & Development Commission (BCDC) passed the legislature by one vote and was signed into law by Governor Ronald Reagan. It became the first coastal protection agency in the world, the model for California’s Coastal Commission and many others. <br><br>BCDC has continued to protect the shoreline for over 50 years through permits and planning, increasing public access from only 6 miles in 1961 to over 350 miles of Bay Trail, parks, marinas and wildlife refuges today. Learn more aabout BCDC <a href="https://bcdc.ca.gov/history.html" target="_blank">here</a>.',
             location: {
                 center: [-122.33877, 37.76192],
                 zoom: 9.24,
@@ -104,11 +107,12 @@ var config = {
             id: 'suisun-short',
             alignment: 'right',
             hidden: false,
-            title: 'Suisun Marsh Preservation Act, 1974',
+            title: 'Protecting the Suisun Marsh',
+            year: '1974',
             image: 'images/Suisun-Marsh.jpg',
-            description: 'Secures passage of Suisun Marsh Preservation Act, the state’s first wetlands protection law. COPY NEEDED.',
+            description: 'Save The Bay won passage of the Suisun Marsh Preservation Act, the state’s first wetlands protection law. This is the largest brackish marsh habitat in the U.S. at the north-eastern end of San Francisco Bay and the entrance to the Sacramento-San Joaquin Delta.',
             location: {
-                center: [-122.04498, 38.19288],
+                center: [-121.88502, 38.09175],
                 zoom: 9.65,
                 pitch: 0.00,
                 bearing: -0.00
@@ -117,29 +121,30 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
+                {
+                    layer: 'impact-suisun-marsh',
+                    opacity: 0.2,
+                    duration: 1000
+                }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'impact-suisun-marsh',
+                    opacity: 0
+                }
             ]
         },
         {
             id: 'canal-short',
             alignment: 'left',
             hidden: false,
-            title: 'Halted Peripheral Canal, 1982',
-            image: 'images/',
-            description: 'Stopped state from building Peripheral Canal to divert fresh water from Bay-Delta. COPY NEEDED.',
+            title: 'Halting the Peripheral Canal',
+            year: '1982',
+            image: 'images/delta.jpg',
+            description: 'Save The Bay helped lead the campaign to defeat Proposition 9, a statewide ballot measure supported by Governor Jerry Brown that would have authorized building a canal to divert fresh water from the Bay and Delta south to farms and cities.',
             location: {
-                center: [-122.33877, 37.76192],
-                zoom: 9.24,
+                center: [-122.10694, 37.87824],
+                zoom: 8.90,
                 pitch: 0.00,
                 bearing: -0.00
             },
@@ -164,12 +169,13 @@ var config = {
             id: 'valley-short',
             alignment: 'left',
             hidden: false,
-            title: 'Central Valley Project Improvement Act, 1992',
-            image: 'images/',
-            description: 'Passed Central Valley Project Improvement Act to keep more water in Bay rivers. COPY NEEDED.',
+            title: 'Keeping water for salmon in Bay rivers',
+            year: '1992',
+            image: '',
+            description: 'Save The Bay’s coalition convinced Congress to pass the Central Valley Project Improvement Act, requiring 800,000 acre-feet of water be dedicated annually to benefit migrating salmon and other wildlife in the rivers that feed the San Francisco Bay Delta.',
             location: {
-                center: [-122.33877, 37.76192],
-                zoom: 9.24,
+                center: [-122.10694, 37.87824],
+                zoom: 8.90,
                 pitch: 0.00,
                 bearing: -0.00
             },
@@ -177,26 +183,26 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
+                {
+                    layer: 'impact-resto-sites',
+                    opacity: 0
+                }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'impact-resto-sites',
+                    opacity: 0
+                }
             ]
         },
         {
             id: 'edu-feature',
             alignment: 'center',
             hidden: false,
-            title: 'Launched Student Education Program, 1998',
+            title: 'Bringing Bay Education to Students',
+            year: '1998',
             image: 'images/education-1.jpg',
-            description: 'Save The Bay launched our popular Edcation Program in 1998! Our education programs have brought over 17,500 Bay Area students to the shoreline. In these education programs 35,290 native California plants have been planted, 70,000 pounds of weeds removed, and 8,810 pounds of trash removed from the shoreline.<br><br>In 2020, we expanded our Education Program online with our first set of virtual field trips and education videos called Outdoor Learning Online (OLO).  https://savesfbay.org/olo',
+            description: 'Save The Bay brought high-impact experiential education to middle- and high-school students, shaping the next generation of bay stewards with programs on the water and shoreline. We’ve reached tens of thousands of students in person, and recently added <a href="https://savesfbay.org/olo" target="_blank">Outdoor Learning Online (OLO)</a> virtual field trips and educational videos to reach even more people. Our curriculum brings to life Bay science, ecology and history, teaching everyone how to protect and restore the Bay.<br><table style="width:100%; cell-spacing:40px; padding:20px 0 0 0"><tr><td style="width:33.3%;"><img src="images/education-3.jpg"></td><td style="width:33.3%;"><img src="images/education-2.jpg"></td><td style="width:33.3%;"><img src="images/education-4.jpg"></td></tr></table>',
             location: {
                 center: [-122.33877, 37.76192],
                 zoom: 9.24,
@@ -207,26 +213,56 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
+                {
+                    layer: 'impact-resto-sites',
+                    opacity: 0.7
+                }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'impact-resto-sites',
+                    opacity: 0.7
+                }
+            ]
+        },
+        {
+            id: 'resto-short',
+            alignment: 'center',
+            hidden: false,
+            title: 'Engaging Volunteers to Restore Wetlands',
+            year: '2000',
+            image: 'images/resto-volunteer-1.jpg',
+            description: 'Save The Bay started enlisting volunteers in 2000 to restore transition-zone habitat along Bay marshes, benefiting endangered wildlife, enhancing ecosystem health and protecting shoreline communities from rising tides. The program has grown from modest beginnings to work on more than 10 sites owned by the national wildlife refuge, local park districts and other partners, and involving thousands of community volunteers annually. We remove invasive non-native plants and trash, and install native plants to support a suite of wetland habitats. We operate multiple native plant nurseries, collecting native seeds to propagate and adding new scientific techniques to increase the scale and impact of this work throughout the region.<br><table style="width:100%; cell-spacing:40px; padding:20px 0 0 0"><tr><td style="width:33.3%;"><img src="images/resto-volunteer-2.jpg"></td><td style="width:33.3%;"><img src="images/resto-volunteer-3.jpg"></td><td style="width:33.3%;"><img src="images/resto-volunteer-4.jpg"></td></tr></table>',
+            location: {
+                center: [-122.33877, 37.76192],
+                zoom: 9.24,
+                pitch: 0.00,
+                bearing: -0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'impact-resto-sites',
+                    opacity: .7
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'impact-resto-sites',
+                    opacity: 0
+                }
             ]
         },
         {
             id: 'sfo-feature',
-            alignment: 'center',
+            alignment: 'right',
             hidden: false,
-            title: 'Stopped SFO Bay Fill Plan, 1999',
+            title: 'Stopping SFO Airport Runways on Bay Fill',
+            year: '2002',
             image: 'images/sfo.jpg',
-            description: 'From 1999-2002, Save The Bay led a successful campaign to stop San Francisco International Airport’s plan to fill in two square miles more of the Bay for reconfigured runways. Save The Bay was founded to protect the Bay from being filled and developed. Thanks to these and other victories, we created the opportunity for restoration of more than 10,000 acres of wetlands that had been diked off from the Bay, to benefit people and wildlife. ',
+            description: 'Save The Bay led a successful campaign to stop San Francisco International Airport’s plan to fill in two square miles more of the Bay for reconfigured runways. SFO instead employed technology to improve airport safety and efficiency without damaging the Bay, saving tens of billions of dollars, and San Francisco voters passed Proposition D to prohibit large Bay fill projects unless voters approve.',
             location: {
                 center: [-122.38472, 37.61964],
                 zoom: 11.89,
@@ -237,6 +273,37 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
+                {
+                    layer: 'impact-sfo',
+                    opacity: 0.2,
+                    duration: 1000
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'impact-sfo',
+                    opacity: 0
+                }
+            ]
+        },
+        {
+            id: 'authority-feature',
+            alignment: 'left',
+            hidden: false,
+            title: 'Establishing a Bay Restoration Agency',
+            year: '2008',
+            image: 'images/tidal-marsh.jpg',
+            description: 'Save The Bay sponsored a state bill to create the San Francisco Bay Restoration Authority, with a mandate to raise public funds from the Bay Area for marsh restoration projects. The legislature approved and Governor Arnold Schwarzenegger signed the law to create this new regional agency.  Learn more: <a href="http://www.sfbayrestore.org" target="_blank">www.sfbayrestore.org</a>',
+            location: {
+                center: [-122.33877, 37.76192],
+                zoom: 9.24,
+                pitch: 0.00,
+                bearing: -0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
                 // {
                 //     layer: 'layer-name',
                 //     opacity: 1,
@@ -251,42 +318,13 @@ var config = {
             ]
         },
         {
-            id: 'resto-short',
+            id: 'pollution-short',
             alignment: 'left',
             hidden: false,
-            title: 'Created Volunteer Restoration Program, 2004',
-            image: 'images/resto-volunteer-1.jpg',
-            description: 'Created our community-based restoration program. COPY NEEDED, ADD STATS.',
-            location: {
-                center: [-122.33877, 37.76192],
-                zoom: 9.24,
-                pitch: 0.00,
-                bearing: -0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                {
-                    layer: 'choropleth-fill',
-                    opacity: .8,
-                    duration: 5000
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'choropleth-fill',
-                    opacity: 0
-                }
-            ]
-        },
-        {
-            id: 'authority-feature',
-            alignment: 'center',
-            hidden: false,
-            title: 'Established SF Bay Restoration Authority, 2008',
-            image: 'images/',
-            description: 'to raise public funding for marsh restoration; going to the ballot/electoral-political action -- echo of BCDC creation; alliance with business/labor; regional action on SLR. COPY NEEDED.',
+            title: 'Reducing Trash Pollution in the Bay',
+            year: '2009',
+            image: '',
+            description: 'Save The Bay led advocacy to enforce the federal Clean Water Act and reduce trash that cities let blow and flow into creeks and the Bay through stormwater, unscreened. We convinced the S.F. Regional Water Quality Control Board to create new permit requirements that cities reduce this trash in the Bay to zero by 2022 – the first time Bay trash limits had ever been set.',
             location: {
                 center: [-122.33877, 37.76192],
                 zoom: 9.24,
@@ -314,9 +352,10 @@ var config = {
             id: 'bag-feature',
             alignment: 'center',
             hidden: false,
-            title: 'Bag Bans, Began in 2010',
+            title: 'Banning Plastic Bag Trash',
+            year: '2010',
             image: 'images/bag-ban.jpeg',
-            description: 'In 2011, Save The Bay led a winning campaign to pass San Jose’s ordinance banning distribution of free plastic shopping bags! The ordinance was the toughest bag bans in California, and became the model for other bans in the Bay Area and eventually statewide.<br><br>Single use plastic is still a big component of trash that poisons the Bay today. Much of the plastic pollution flows into the Bay from city streets travels through storm drains unfiltered to creeks and the Bay.',
+            description: 'Save The Bay led a winning campaign with San Jose’s city council to ban distribution of free plastic shopping bags, a major source of trash in the Bay. This  tough bag bans  quickly became the model for other cities and counties in the Bay Area and beyond. In 2016, we helped pass Proposition 67, finally establishing a statewide plastic bag ban throughout California.<br><br>Single use plastic is still a big component of trash that poisons the Bay today. Much of the plastic pollution flows into the Bay from city streets and state highways travels through storm drains unfiltered to creeks and the Bay.',
             location: {
                 center: [-122.33877, 37.76192],
                 zoom: 9.24,
@@ -342,11 +381,12 @@ var config = {
         },
         {
             id: 'salt-feature',
-            alignment: 'center',
+            alignment: 'right',
             hidden: false,
-            title: 'Stopped Cargill Saltworks Project, Began in 2012',
+            title: 'Stopping a New City on Bay Salt Ponds',
+            year: '2012',
             image: 'images/salt-pond.jpg',
-            description: 'In 2006, Cargill retired the Redwood City Salt Ponds after more than 100 years of salt production and proposed to permanently fill 1,400+ acres of the Bay and build 12,000+ homes. Save The Bay launched "Don’t Pave My Bay" to show how this would destroy wildlife habitat, worsen traffic, threaten port jobs and endanger residents by building homes where sea level rise will cause flooding, rallying thousands of residents, elected officials, and State & Federal agencies.<br><br>By 2012, opposition to development led Redwood City to refuse permits for the project. Cargill redesigned the project, and developed a strategy to remove a major obstacle to development-the fact that the ponds are subject to regulation under the Clean Water Act.<br><br>Despite opposition from the Bay Area Congressional Delegation, in 2019 Trump’s EPA declared the Salt Ponds are not protected under the Clean Water Act, making development more likely. Together with SF Bay Keeper, Green Foothills and Citizens’ Committee to Complete the Refuge, Save The Bay filed a lawsuit against the EPA. The lawsuit sought to overturn the EPA’s ruling that the Salt Ponds are not protected under the Clean Water Act.<br><br>In 2020, a federal judge ruled that the Redwood City Salt Ponds are protected under the Clean Water Act. Cargill and Trump’s EPA appeal the ruling. The next year, the EPA threw out the Trump-era appeal and the Redwood City Salt Ponds are protected from development!',
+            description: 'Save The Bay led the successful battle for over a decade to stop Cargill from building thousands of home on sensitive wetlands in the Bay in Redwood City. After retiring its Redwood City salt ponds from active production in 2006, Cargill proposed building 12,000 homes for 30,000 new residents on the ponds. This illegal Bay fill project would destroy wildlife habitat, worsen traffic, and put more people and property at risk of flooding from rising tides. We rallied  local residents and elected officials throughout the Bay Area to oppose filling the bay for housing. Under pressure from the Redwood City council, Cargill withdrew its project in 2012, and prepared to try again, lobbying for a waiver from the federal Clean Water Act law that protects wetlands.<br><br>When the Trump Administration’s EPA provided that waiver, Save The Bay and our allies sued to overturn it and we won. President Biden’s EPA and Cargill withdrew appeals of that ruling in 2021, leaving Cargill to consider sale or donation of the property to the San Francisco Bay National Wildlife Refuge for permanent protection and restoration.',
             location: {
                 center: [-122.18980, 37.50467],
                 zoom: 11.02,
@@ -357,26 +397,27 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
+                {
+                    layer: 'impact-salt-pond',
+                    opacity: 0.2,
+                    duration: 1000
+                }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'impact-salt-pond',
+                    opacity: 0
+                }
             ]
         },
         {
             id: 'bayday-short',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
-            title: 'Launched Bay Day, 2015',
+            title: 'Launching the Annual Bay Day Celebration',
+            year: '2015',
             image: 'images/bay-day.jpg',
-            description: 'Created our community-based restoration program. COPY NEEDED, ADD STATS.',
+            description: 'Save The Bay rallied Bay Area cities and counties to declare the first “Bay Day” celebration in October 2015, for everyone to celebrate and appreciate San Francisco Bay. Bay Day has grown in popularity and support from community partners with activities and events now including a month-long Bay Trail Challenge.  Learn more: <a href="http://www.BayDay.org" target="_blank">www.BayDay.org</a><br><table style="width:100%; cell-spacing:40px; padding:20px 0 0 0"><tr><td style="width:33.3%;"><img src="images/bay-day-3.jpg"></td><td style="width:33.3%;"><img src="images/bay-day-4.jpg"></td><td style="width:33.3%;"><img src="images/bay-day-5.jpg"></td></tr></table>',
             location: {
                 center: [-122.33877, 37.76192],
                 zoom: 9.24,
@@ -404,9 +445,10 @@ var config = {
             id: 'aa-feature',
             alignment: 'center',
             hidden: false,
-            title: 'Passed Measure AA, 2016',
+            title: 'Creating Regional Funding for Bay Restoration',
+            year: '2016',
             image: 'images/measure-aa.jpeg',
-            description: 'In 2016, after a decade of planning and campaigning by Save The Bay and a broad coalition of supporters, voters in all nine Bay Area counties approved Measure AA, a parcel tax to generate $500 million for Bay wetlands restoration. Over 20 years, these funds support tidal marsh projects that support endangered wildlife, protect shoreline communities against sea level rise and increase recreational access. Over $100 million has already been invested in these projects!',
+            description: 'Voters in all nine Bay Area counties approved Measure AA, a parcel tax to generate $500 million for Bay wetlands restoration over 20 years. Save The Bay planned and advocated for this new public funding for over a decade, building a broad coalition of business, environment, local government and other supporters. Measure AA funds are accelerating tidal marsh projects that are essential to combat sea-level rise, support endangered wildlife, and increase recreation and access to the Bay for underserved communities. $100 million has been invested in wetland projects from Measure AA funds already!',
             location: {
                 center: [-122.33877, 37.76192],
                 zoom: 9.24,
@@ -431,23 +473,66 @@ var config = {
             ]
         },
         {
-            id: 'other-identifier',
-            alignment: 'right',
+            id: 'baysmart-feature',
+            alignment: 'center',
             hidden: false,
-            title: 'Second Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            title: 'Making the Bay Area Climate-Resilient',
+            year: '2018',
+            image: 'images/bay-smart-community.jpg',
+            description: 'Save The Bay published “Bay Smart Communities for a Sustainable Future,” promoting climate adaptation priorities for a healthy Bay and a sustainable Bay Area inland and upstream from the shoreline. Working with environmental justice and equity partners, we set a bold agenda for Bay Area community resilience through urban greening, clean water, accessible transit and affordable housing.',
             location: {
-                center: [-77.020636, 38.886900],
-                zoom: 8.5,
-                pitch: 60,
-                bearing: -43.2
+                center: [-122.33877, 37.76192],
+                zoom: 9.24,
+                pitch: 0.00,
+                bearing: -0.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'caltrans-feature',
+            alignment: 'left',
+            hidden: false,
+            title: 'Forcing CalTrans to Obey Water Pollution Laws',
+            year: '2019',
+            image: 'images/caltrans-trash.jpg',
+            description: 'Save The Bay won an unprecedented legal order forcing California’s state transportation agency to reduce little flowing from its roads and highways to pollute the Bay. The “Cease and Desist” order required Caltrans to clean and screen trash, after years of non-compliance with the Clean Water Act.',
+            location: {
+                center: [-122.33877, 37.76192],
+                zoom: 9.24,
+                pitch: 0.00,
+                bearing: -0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
         }
     ]
 };
