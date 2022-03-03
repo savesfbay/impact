@@ -43,7 +43,7 @@ var config = {
         },
         {
             id: 'bay-or-river',
-            alignment: 'center',
+            alignment: 'left',
             hidden: false,
             title: '',
             year: '',
@@ -202,7 +202,7 @@ var config = {
             hidden: false,
             title: 'Keeping water for salmon in Bay rivers',
             year: '1992',
-            image: '',
+            image: 'images/salmon.jpg',
             description: 'Save The Bay’s coalition convinced Congress to pass the Central Valley Project Improvement Act, requiring 800,000 acre-feet of water be dedicated annually to benefit migrating salmon and other wildlife in the rivers that feed the San Francisco Bay Delta.',
             location: {
                 center: [-122.10694, 37.87824],
@@ -246,13 +246,13 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'impact-resto-sites',
-                    opacity: 0.7
+                    opacity: 0
                 }
             ],
             onChapterExit: [
                 {
                     layer: 'impact-resto-sites',
-                    opacity: 0.7
+                    opacity: 0
                 }
             ]
         },
@@ -264,6 +264,36 @@ var config = {
             year: '2000',
             image: 'images/resto-volunteer-1.jpg',
             description: 'Save The Bay started enlisting volunteers in 2000 to restore transition-zone habitat along Bay marshes, benefiting endangered wildlife, enhancing ecosystem health and protecting shoreline communities from rising tides. The program has grown from modest beginnings to work on more than 10 sites owned by the national wildlife refuge, local park districts and other partners, and involving thousands of community volunteers annually. We remove invasive non-native plants and trash, and install native plants to support a suite of wetland habitats. We operate multiple native plant nurseries, collecting native seeds to propagate and adding new scientific techniques to increase the scale and impact of this work throughout the region.<br><table style="width:100%; cell-spacing:40px; padding:20px 0 0 0"><tr><td style="width:33.3%;"><img src="images/resto-volunteer-2.jpg"></td><td style="width:33.3%;"><img src="images/resto-volunteer-3.jpg"></td><td style="width:33.3%;"><img src="images/resto-volunteer-4.jpg"></td></tr></table>',
+            location: {
+                center: [-122.33877, 37.76192],
+                zoom: 9.24,
+                pitch: 0.00,
+                bearing: -0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'impact-resto-sites',
+                    opacity: .7
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'impact-resto-sites',
+                    opacity: .7
+                }
+            ]
+        },
+        {
+            id: 'resto-hold',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            year: '',
+            image: '',
+            description: '',
             location: {
                 center: [-122.33877, 37.76192],
                 zoom: 9.24,
