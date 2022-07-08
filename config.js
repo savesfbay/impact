@@ -79,7 +79,7 @@ var config = {
             title: '',
             year: '',
             image: 'images/Founding.jpg',
-            description: 'They took action, asking national conservation  leaders stop the filling, but  none agreed. So the women began recruiting friends to their cause, and formed Save San Francisco Bay Association. They attended city council meetings, opposed Berkeley and other cities’ plans to fill in the Bay, and rallied public support to halt the filling. ',
+            description: 'They took action, asking national conservation leaders to stop the filling, but none agreed. So the women began recruiting friends to their cause, and formed Save San Francisco Bay Association. They attended city council meetings, opposed Berkeley and other cities’ plans to fill in the Bay, and rallied public support to halt the filling. ',
             location: {
                 center: [-122.33877, 37.76192],
                 zoom: 9.24,
@@ -110,7 +110,7 @@ var config = {
             title: 'Creating the First Bay Protection Agency',
             year: '1969',
             image: 'images/BCDC.jpeg',
-            description: 'In 1965, Save The Bay’s  campaign convinced the state legislature to create  a study commission to devise a plan for San Francisco Bay. Chaired by Sunset Magazine publisher Mel Lane with journalist Joe Bodovitz as its director, the commission held public hearings and enlisted experts on all of the Bay’s resources and threats to them. The commission recommended the state create a permanent agency to regulate use of the Bay and its shoreline, limit filling, increase public access and protect commerce. In 1969, Save The Bay’s bill to create that Bay Conservation & Development Commission (BCDC) passed the legislature by one vote and was signed into law by Governor Ronald Reagan. It became the first coastal protection agency in the world, the model for California’s Coastal Commission and many others. <br><br>BCDC has continued to protect the shoreline for over 50 years through permits and planning, increasing public access from only 6 miles in 1961 to over 350 miles of Bay Trail, parks, marinas and wildlife refuges today. Learn more aabout BCDC <a href="https://bcdc.ca.gov/history.html" target="_blank">here</a>.',
+            description: 'In 1965, Save The Bay’s campaign convinced the state legislature to create a study commission to devise a plan for San Francisco Bay. Chaired by Sunset Magazine publisher Mel Lane with journalist Joe Bodovitz as its director, the commission held public hearings and enlisted experts on all of the Bay’s resources and threats to them. The commission recommended the state create a permanent agency to regulate use of the Bay and its shoreline, limit filling, increase public access and protect commerce. In 1969, Save The Bay’s bill to create that Bay Conservation & Development Commission (BCDC) passed the legislature by one vote and was signed into law by Governor Ronald Reagan. It became the first coastal protection agency in the world, the model for California’s Coastal Commission and many others. <br><br>BCDC has continued to protect the shoreline for over 50 years through permits and planning, increasing public access from only 6 miles in 1961 to over 350 miles of Bay Trail,  while adding parks, marinas and wildlife refuges today. Learn more about BCDC <a href="https://bcdc.ca.gov/history.html" target="_blank">here</a>.',
             location: {
                 center: [-122.33877, 37.76192],
                 zoom: 9.24,
@@ -354,7 +354,7 @@ var config = {
             title: 'Establishing a Bay Restoration Agency',
             year: '2008',
             image: 'images/tidal-marsh.jpg',
-            description: 'Save The Bay sponsored a state bill to create the San Francisco Bay Restoration Authority, with a mandate to raise public funds from the Bay Area for marsh restoration projects. The legislature approved and Governor Arnold Schwarzenegger signed the law to create this new regional agency.  Learn more: <a href="http://www.sfbayrestore.org" target="_blank">www.sfbayrestore.org</a>',
+            description: 'Save The Bay sponsored a state bill to create the San Francisco Bay Restoration Authority, with a mandate to raise public funds from the Bay Area for marsh restoration projects. The legislature approved and Governor Arnold Schwarzenegger signed the law to create this new regional agency. Learn more: <a href="http://www.sfbayrestore.org" target="_blank">www.sfbayrestore.org</a>',
             location: {
                 center: [-122.33877, 37.76192],
                 zoom: 9.24,
@@ -416,7 +416,7 @@ var config = {
             title: 'Banning Plastic Bag Trash',
             year: '2010',
             image: 'images/bag-ban.jpeg',
-            description: 'Save The Bay led a winning campaign with San Jose’s city council to ban distribution of free plastic shopping bags, a major source of trash in the Bay. This  tough bag bans  quickly became the model for other cities and counties in the Bay Area and beyond. In 2016, we helped pass Proposition 67, finally establishing a statewide plastic bag ban throughout California.<br><br>Single use plastic is still a big component of trash that poisons the Bay today. Much of the plastic pollution flows into the Bay from city streets and state highways travels through storm drains unfiltered to creeks and the Bay.',
+            description: 'Save The Bay led a winning campaign with San Jose’s city council to ban distribution of free plastic shopping bags, a major source of trash in the Bay. This tough bag ban quickly became the model for other cities and counties in the Bay Area and beyond. In 2016, we helped pass Proposition 67, finally establishing a statewide plastic bag ban throughout California.<br><br>Single use plastic is still a big component of trash that poisons the Bay today. Much of the plastic pollution flows into the Bay from city streets and state highways travels through storm drains unfiltered to creeks and the Bay.',
             location: {
                 center: [-122.33877, 37.76192],
                 zoom: 9.24,
@@ -447,7 +447,7 @@ var config = {
             title: 'Stopping a New City on Bay Salt Ponds',
             year: '2012',
             image: 'images/salt-pond.jpg',
-            description: 'Save The Bay led the successful battle for over a decade to stop Cargill from building thousands of home on sensitive wetlands in the Bay in Redwood City. After retiring its Redwood City salt ponds from active production in 2006, Cargill proposed building 12,000 homes for 30,000 new residents on the ponds. This illegal Bay fill project would destroy wildlife habitat, worsen traffic, and put more people and property at risk of flooding from rising tides. We rallied  local residents and elected officials throughout the Bay Area to oppose filling the bay for housing. Under pressure from the Redwood City council, Cargill withdrew its project in 2012, and prepared to try again, lobbying for a waiver from the federal Clean Water Act law that protects wetlands.<br><br>When the Trump Administration’s EPA provided that waiver, Save The Bay and our allies sued to overturn it and we won. President Biden’s EPA and Cargill withdrew appeals of that ruling in 2021, leaving Cargill to consider sale or donation of the property to the San Francisco Bay National Wildlife Refuge for permanent protection and restoration.',
+            description: 'Save The Bay led the successful battle for over a decade to stop Cargill from building thousands of home on sensitive wetlands in the Bay in Redwood City. After retiring its Redwood City salt ponds from active production in 2006, Cargill proposed building 12,000 homes for 30,000 new residents on the ponds. This illegal Bay fill project would destroy wildlife habitat, worsen traffic, and put more people and property at risk of flooding from rising tides. We rallied local residents and elected officials throughout the Bay Area to oppose filling the bay for housing. Under pressure from the Redwood City council, Cargill withdrew its project in 2012, and prepared to try again, lobbying for a waiver from the federal Clean Water Act law that protects wetlands.<br><br>When the Trump Administration’s EPA provided that waiver, Save The Bay and our allies sued to overturn it and we won. President Biden’s EPA and Cargill withdrew appeals of that ruling in 2021, leaving Cargill to consider sale or donation of the property to the San Francisco Bay National Wildlife Refuge for permanent protection and restoration.',
             location: {
                 center: [-122.18980, 37.50467],
                 zoom: 11.02,
@@ -478,7 +478,7 @@ var config = {
             title: 'Launching the Annual Bay Day Celebration',
             year: '2015',
             image: 'images/bay-day.jpg',
-            description: 'Save The Bay rallied Bay Area cities and counties to declare the first “Bay Day” celebration in October 2015, for everyone to celebrate and appreciate San Francisco Bay. Bay Day has grown in popularity and support from community partners with activities and events now including a month-long Bay Trail Challenge.  Learn more: <a href="http://www.BayDay.org" target="_blank">www.BayDay.org</a><br><table style="width:100%; cell-spacing:40px; padding:20px 0 0 0"><tr><td style="width:33.3%;"><img src="images/bay-day-3.jpg"></td><td style="width:33.3%;"><img src="images/bay-day-4.jpg"></td><td style="width:33.3%;"><img src="images/bay-day-5.jpg"></td></tr></table>',
+            description: 'Save The Bay rallied Bay Area cities and counties to declare the first “Bay Day” celebration in October 2015, for everyone to celebrate and appreciate San Francisco Bay. Bay Day has grown in popularity and support from community partners with activities and events now including a month-long Bay Trail Challenge. Learn more: <a href="http://www.BayDay.org" target="_blank">www.BayDay.org</a><br><table style="width:100%; cell-spacing:40px; padding:20px 0 0 0"><tr><td style="width:33.3%;"><img src="images/bay-day-3.jpg"></td><td style="width:33.3%;"><img src="images/bay-day-4.jpg"></td><td style="width:33.3%;"><img src="images/bay-day-5.jpg"></td></tr></table>',
             location: {
                 center: [-122.33877, 37.76192],
                 zoom: 9.24,
@@ -571,7 +571,7 @@ var config = {
             title: 'Forcing CalTrans to Obey Water Pollution Laws',
             year: '2019',
             image: 'images/caltrans-trash.jpg',
-            description: 'Save The Bay won an unprecedented legal order forcing California’s state transportation agency to reduce little flowing from its roads and highways to pollute the Bay. The “Cease and Desist” order required Caltrans to clean and screen trash, after years of non-compliance with the Clean Water Act.',
+            description: 'Save The Bay won an unprecedented legal order forcing California’s state transportation agency to reduce litter flowing from its roads and highways to pollute the Bay. The “Cease and Desist” order required Caltrans to clean up its roads and screen trash from its stormwater system, after years of non-compliance with the Clean Water Act.',
             location: {
                 center: [-122.33877, 37.76192],
                 zoom: 9.24,
