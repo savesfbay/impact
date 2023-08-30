@@ -262,7 +262,7 @@ var config = {
             hidden: false,
             title: 'Engaging Volunteers to Restore Wetlands',
             year: '2000',
-            image: 'images/resto-volunteer-1.jpg',
+            image: 'images/resto-volunteer-1.jpeg',
             description: 'Save The Bay started enlisting volunteers in 2000 to restore transition-zone habitat along Bay marshes, benefiting endangered wildlife, enhancing ecosystem health and protecting shoreline communities from rising tides. The program has grown from modest beginnings to work on more than 10 sites owned by the national wildlife refuge, local park districts and other partners, and involving thousands of community volunteers annually. We remove invasive non-native plants and trash, and install native plants to support a suite of wetland habitats. We operate multiple native plant nurseries, collecting native seeds to propagate and adding new scientific techniques to increase the scale and impact of this work throughout the region.<br><table style="width:100%; cell-spacing:40px; padding:20px 0 0 0"><tr><td style="width:33.3%;"><img src="images/resto-volunteer-2.jpg"></td><td style="width:33.3%;"><img src="images/resto-volunteer-3.jpg"></td><td style="width:33.3%;"><img src="images/resto-volunteer-4.jpg"></td></tr></table>',
             location: {
                 center: [-122.33877, 37.76192],
@@ -572,6 +572,99 @@ var config = {
             year: '2019',
             image: 'images/caltrans-trash.jpg',
             description: 'Save The Bay won an unprecedented legal order forcing California’s state transportation agency to reduce litter flowing from its roads and highways to pollute the Bay. The “Cease and Desist” order required Caltrans to clean up its roads and screen trash from its stormwater system, after years of non-compliance with the Clean Water Act.',
+            location: {
+                center: [-122.33877, 37.76192],
+                zoom: 9.24,
+                pitch: 0.00,
+                bearing: -0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'salt-update',
+            alignment: 'right',
+            hidden: false,
+            title: 'Winning Big for the Redwood City Salt Ponds',
+            year: '2021',
+            image: 'images/salt-pond-update.jpg',
+            description: 'In 2016, US Environmental Protection Agency scientists and legal counsel concluded that the vast majority of the Redwood City Salt Ponds is jurisdictional wetlands under the federal Clean Water Act and is protected by that law. Save The Bay and other environmental plaintiffs sued Trump’s EPA in 2019, over its waiver of Clean Water Act jurisdiction on the ponds. The Federal District court ruled in October 2020 that EPA misapplied the Clean Water Act and ignored its own agency regulations, ordering the Agency to provide a legally sound jurisdictional determination.<br><br>In February 2021, the EPA dropped its appeal of our lawsuit victory restoring Clean Water Act protections to the Redwood City Salt Ponds. The move came a week after 57 Bay Area elected officials and organizations asked the Biden Administration to withdraw the Trump EPA appeal of a federal court order upholding those legal protections.<br><br>Save The Bay has fought development on these ponds for 15 years. Now we advocate for Cargill to transfer this sensitive site for addition to the San Francisco Bay National Wildlife Refuge.',
+            location: {
+                center: [-122.18980, 37.50467],
+                zoom: 11.02,
+                pitch: 0.00,
+                bearing: -0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'impact-salt-pond',
+                    opacity: 0.2,
+                    duration: 1000
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'impact-salt-pond',
+                    opacity: 0
+                }
+            ]
+        },
+        {
+            id: 'ravenswood-feature',
+            alignment: 'center',
+            hidden: false,
+            title: 'Revegetating the Ravenswood Horizontal Levee',
+            year: '2021',
+            image: 'images/ravenswood-1.jpg',
+            description: 'Save The Bay began work on a new, innovative wetland restoration project: revegetating a horizontal levee at the Ravenswood R4 Pond near Bedwell Bayfront Park. The horizontal levee is different in size and restoration technique than our typical projects. To revegetate 9.6 acres of gradually sloping levee, we are employing farming equipment to till the levee and spread rhizomes of native grasses throughout the site. Rhizomes are modified stems that grow underground, allowing our native plants to spread out and establish in the site. We are additionally outplanting seedlings and spreading native seed mixes – Save The Bay’s tried-and-true restoration techniques.<br><br>The goal of this horizontal levee is to showcase these large-scale restoration techniques and promote nature-based shoreline protection projects. This project echoes a movement across the country looking to natural solutions to mitigate the effects of climate change and buffer communities from sea level rise. The Ravenswood site will expand to include a nearby stretch of shoreline eventually greening 25 acres in total.<br><br>Partner organizations at Ravenswood include the South Bay Salt Pond Restoration Project, Ducks Unlimited, the State Coastal Conservancy, the USFWS, the West Bay Sanitary District and the City of Menlo Park.<br><table style="width:100%; cell-spacing:40px; padding:20px 0 0 0"><tr><td style="width:33.3%;"><img src="images/ravenswood-2.jpeg"></td><td style="width:33.3%;"><img src="images/ravenswood-3.jpg"></td><td style="width:33.3%;"><img src="images/ravenswood-4.jpg"></td></tr></table>',
+            location: {
+                center: [-122.33877, 37.76192],
+                zoom: 9.24,
+                pitch: 0.00,
+                bearing: -0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'sfbay-resto-act-feature',
+            alignment: 'center',
+            hidden: false,
+            title: 'Passing the San Francisco Bay Restoration Act',
+            year: '2022',
+            image: 'images/sfbay-resto-act.jpg',
+            description: 'The San Francisco Bay Restoration Act, introduced by former Rep. Jackie Speier,  finally become law as an amendment to the 2023 National Defense Authorization Act (HR 7776) after a decade-long advocacy effort. This crucial legislation establishes a permanent program office within the Environmental Protection Agency (EPA) dedicated to supporting projects that enhance the Bay’s water quality, restore vital habitats, and help it adapt to the challenges posed by climate change. At the same time, Congress appropriated a record amount of $54.5 million in new federal funding to support the Bay’s health.<br><br>Save The Bay has been working closely with Rep. Speier’s office since the bill’s introduction in 2010. We recognized the urgent need for federal funding to address years of underinvestment that the Bay has faced compared to other major estuaries. Not waiting for federal resources, we helped lead a successful campaign to pass Measure AA in 2016, which utilized local tax revenues to support wetland restoration and water quality improvements throughout the Bay.<br><br>However, Measure AA’s funding alone cannot fully meet the Bay’s extensive project needs so Save The Bay has persistently advocated for increased federal funding. Passage of the Restoration Act highlights the importance of long-term partnerships and persistent advocacy in addressing the Bay’s environmental challenges. The combined efforts of Save The Bay, Rep. Speier, Speaker Pelosi, and Senators Feinstein and Padilla have culminated in a significant step forward for the Bay’s restoration and resilience efforts. With the new program office and increased federal funding, the Bay will witness accelerated shoreline restoration, climate adaptation, and water quality improvements, crucially needed in the face of a changing climate.',
             location: {
                 center: [-122.33877, 37.76192],
                 zoom: 9.24,
