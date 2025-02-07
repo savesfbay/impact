@@ -687,6 +687,68 @@ var config = {
                 //     opacity: 0
                 // }
             ]
+        },
+        {
+            id: 'sb272-feature',
+            alignment: 'left',
+            hidden: false,
+            title: 'Standardizing Regional Sea Level Rise Planning',
+            year: '2023',
+            image: 'images/sb272-flood.jpeg',
+            description: 'In October 2023, SB272 (Laird) was signed into law by Governor Newsom. This bill gives new authority to the Bay Conservation and Development Commission (BCDC) to set standards for how cities should plan for sea level rise. Bay Area cities along the shoreline are now required to submit shoreline resilience plans that meet these new state standards, which include a strong emphasis on using nature-based adaptation strategies. This consistent regional approach will better protect the most vulnerable communities in the Bay Area from projected flooding, and guide development so that new homes and businesses are kept out of harm’s way. Save The Bay’s policy team advocated for the passage of SB 272 throughout the legislative process and is continuing to engage BCDC and our cities to ensure that the plans required by this law are designed with the strongest possible flooding protections and adopted soon to allow projects to be built ahead of anticipated sea level rise.',
+            location: {
+                center: [-122.33877, 37.76192],
+                zoom: 9.24,
+                pitch: 0.00,
+                bearing: -0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'prop4-feature',
+            alignment: 'right',
+            hidden: false,
+            title: 'Funding Statewide Climate Protections',
+            year: '2024',
+            image: 'images/prop4.jpg',
+            description: 'Proposition 4, the statewide climate bond, was passed by voters in the November 2024 election. Prop 4 invests $10 billion to address the entire scope of climate risks that we face in California: wildfires, drought, extreme heat, and coastal and upland flooding. Money from the bond will supplement the state’s existing investments and accelerate important shoreline resilience projects in the Bay Area. Included in Prop 4 is $765 million for the State Coastal Conservancy to fund coastal resilience and sea level rise adaptation projects, many of which will include nature-based adaptation. The Coastal Conservancy has been key to advancing restoration in recent years and has provided tens of millions of dollars to key wetland restoration projects that Save The Bay works on. Save The Bay advocated alongside Assemblymembers Diane Papan and Damon Connolly, community partners, and the Yes on Prop 4 campaign to pass the bill',
+            location: {
+                center: [-122.33877, 37.76192],
+                zoom: 9.24,
+                pitch: 0.00,
+                bearing: -0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
         }
     ]
 };
