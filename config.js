@@ -535,7 +535,7 @@ var config = {
         },
         {
             id: 'baysmart-feature',
-            alignment: 'center',
+            alignment: 'right',
             hidden: false,
             title: 'Making the Bay Area Climate-Resilient',
             year: '2018',
@@ -726,7 +726,7 @@ var config = {
             title: 'Funding Statewide Climate Protections',
             year: '2024',
             image: 'images/prop4.jpg',
-            description: 'Proposition 4, the statewide climate bond, was passed by voters in the November 2024 election. Prop 4 invests $10 billion to address the entire scope of climate risks that we face in California: wildfires, drought, extreme heat, and coastal and upland flooding. Money from the bond will supplement the state’s existing investments and accelerate important shoreline resilience projects in the Bay Area. Included in Prop 4 is $765 million for the State Coastal Conservancy to fund coastal resilience and sea level rise adaptation projects, many of which will include nature-based adaptation. The Coastal Conservancy has been key to advancing restoration in recent years and has provided tens of millions of dollars to key wetland restoration projects that Save The Bay works on. Save The Bay advocated alongside Assemblymembers Diane Papan and Damon Connolly, community partners, and the Yes on Prop 4 campaign to pass the bill',
+            description: 'Proposition 4, the statewide climate bond, was passed by voters in the November 2024 election. Prop 4 invests $10 billion to address the entire scope of climate risks that we face in California: wildfires, drought, extreme heat, and coastal and upland flooding. Money from the bond will supplement the state’s existing investments and accelerate important shoreline resilience projects in the Bay Area. Included in Prop 4 is $765 million for the State Coastal Conservancy to fund coastal resilience and sea level rise adaptation projects, many of which will include nature-based adaptation. The Coastal Conservancy has been key to advancing restoration in recent years and has provided tens of millions of dollars to key wetland restoration projects that Save The Bay works on. Save The Bay advocated alongside Assemblymembers Diane Papan and Damon Connolly, community partners, and the Yes on Prop 4 campaign to pass the bill.',
             location: {
                 center: [-122.33877, 37.76192],
                 zoom: 9.24,
